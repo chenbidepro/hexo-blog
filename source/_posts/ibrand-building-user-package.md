@@ -1,5 +1,5 @@
 ---
-title: ibrand-building-user-package
+title: 搭建 iBrand User Package
 date: 2018-05-29 14:24:02
 tags: [laravel,ibrand,package]
 ---

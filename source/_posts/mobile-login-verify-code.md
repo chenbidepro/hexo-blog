@@ -1,5 +1,5 @@
 ---
-title: mobile-login-verify-code
+title: 手机验证码
 date: 2018-05-29 14:20:42
 tags: [laravel,手机验证码]
 ---
