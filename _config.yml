@@ -69,6 +69,6 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  ype: git
+  type: git
   repository: https://github.com/shjchen/shjchen.github.io
   branch: master

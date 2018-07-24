@@ -238,8 +238,8 @@ post_wordcount:
 # Wechat Subscriber
 wechat_subscriber:
   enabled: true
-  qcode: /source/images/qrcode.jpg
-  description: 欢迎您扫一扫上面的微信公众号，关注我的产品
+  qcode: /images/qrcode.jpg
+  description: 扫一扫，交个朋友
 
 # Reward
 #reward_comment: Donate comment here
