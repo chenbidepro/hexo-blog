@@ -150,6 +150,8 @@ links_layout: block
 #links_layout: inline
 links:
   iBrand: https://www.ibrand.cc/
+  SF: https://segmentfault.com/u/ibrand
+  掘金: https://juejin.im/user/5aab2cfa518825556534407a
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
@@ -242,9 +244,9 @@ wechat_subscriber:
   description: 扫一扫，交个朋友
 
 # Reward
-#reward_comment: Donate comment here
-#wechatpay: /images/wechatpay.jpg
-#alipay: /images/alipay.jpg
+# reward_comment: 坚持原创技术分享，您的支持将鼓励我继续创作！
+# wechatpay: /images/wechatpay.png
+# alipay: /images/alipay.jpg
 #bitcoin: /images/bitcoin.png
 
 # Declare license on posts
@@ -277,7 +279,7 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: normal
+highlight_theme: night
 
 
 # ---------------------------------------------------------------
