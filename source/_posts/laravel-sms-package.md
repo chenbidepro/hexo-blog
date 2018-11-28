@@ -8,27 +8,26 @@ tags: [laravel,sms,laravel-package]
 
 Laravel 贴合实际需求同时满足多种通道的短信发送组件
 
-[![Build Status](https://travis-ci.org/ibrandcc/laravel-sms.svg?branch=master)](https://travis-ci.org/ibrandcc/laravel-sms)[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/ibrandcc/laravel-sms/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/ibrandcc/laravel-sms/?branch=master)[![Code Coverage](https://scrutinizer-ci.com/g/ibrandcc/laravel-sms/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/ibrandcc/laravel-sms/?branch=master)[![Build Status](https://scrutinizer-ci.com/g/ibrandcc/laravel-sms/badges/build.png?b=master)](https://scrutinizer-ci.com/g/ibrandcc/laravel-sms/build-status/master)[![Latest Stable Version](https://poser.pugx.org/ibrand/laravel-sms/v/stable)](https://packagist.org/packages/ibrand/laravel-sms)[![Latest Unstable Version](https://poser.pugx.org/ibrand/laravel-sms/v/unstable)](https://packagist.org/packages/ibrand/laravel-sms)[![License](https://poser.pugx.org/ibrand/laravel-sms/license)](https://packagist.org/packages/ibrand/laravel-sms)
+![build](/laravel-sms-package/build.png)
 
-
-我们基于业务需求在 [overtrue/easy-sms][1] 基础进行扩展开发，主要实现如下目标：
+基于业务需求在 [overtrue/easy-sms][1] 进行扩展开发，主要实现如下功能：
 
 1. 支持短信验证码直接在 config 中配置模板ID
 2. 支持短信验证码自定义长度
 3. 支持短信验证码有效分钟，默认5分钟
-4. 支持短信验证码重试次数，防止用户意外输错验证码导致需要再次发送验证码的问题。
-5. 支持短信验证码未验证时，用户再次请求验证码，在有效分钟内验证码保持一致。
-6. 集成短信发送路由，支持 web 和 api 发送方式。
-7. 支持验证码调试，debug 模式下可直接查询手机号目前有效的验证码
+4. 支持短信验证码重试次数，防止用户意外输错验证码导致需要再次发送验证码的问题
+5. 支持短信验证码未验证时，用户再次请求验证码，在有效分钟内验证码保持一致
+6. 集成短信发送路由，支持 web 和 api 发送方式
+7. 支持验证码调试，debug 模式下可直接查询手机号目前有效的验证码，debug 模式下同时不会验证验证码的正确性
+8. 支持验证码发送记录到数据库，方便查看发送日志和错误原因
 
 > 包地址：[ibrand/laravel-sms][2]
 
-### TODO：
+**TODO：**
 
-1. 支持短信验证码发送记录到数据库
-2. 支持语音验证码
+1. 支持语音验证码
 
-### 安装
+## 安装
 
 ```
 composer require ibrand/laravel-sms:~1.0 -vvv
@@ -47,9 +46,9 @@ iBrand\Sms\ServiceProvder::class
 'Sms'=> iBrand\Sms\Facade::class
 ```
 
-### 使用
+## 使用
 
-#### 发送验证码
+### 发送验证码
 
 实现了发送短信验证码路由，支持 web 和 api ，可以自定义路由的 prefix。
 ```
@@ -81,19 +80,19 @@ POST请求 `http://your.domain/sms/verify-code`
 }
 ```
 
-#### 验证验证码
+### 验证验证码
 
 ```
     use iBrand\Sms\Facade as Sms;
     
 
     if (!Sms::checkCode(\request('mobile'), \request('code'))) {
-            //Add you code.
+            //验证失败，处理自身业务
         }
 
 ```
 
-#### 配置模板 ID
+### 配置模板 ID
 
 在 `config/ibrand/sms.php` 的 `gateways` 参数可以直接添加 `code_template_id` 来配置模板 id
 
@@ -122,13 +121,13 @@ POST请求 `http://your.domain/sms/verify-code`
         ],
 ```
 
-#### 配置 Content
+### 配置 Content
 
 非模板类通道，可以通过 config/ibrand/sms.php 自定义短信内容
 
 `'content' => '【your signature】亲爱的用户，您的验证码是%s。有效期为%s分钟，请尽快验证。'`
 
-#### debug 
+### debug 
 
 在实际开发中会存在并不用真实发出验证码的情况，因此在 debug 模式下，可以通过
 
@@ -138,5 +137,5 @@ POST请求 `http://your.domain/sms/verify-code`
 > 欢迎大家 star 和提交 issue   :)
 
 
-  [1]: https://github.com/overtrue/easy-sms/
-  [2]: https://github.com/ibrandcc/laravel-sms
+[1]: https://github.com/overtrue/easy-sms/
+[2]: https://github.com/ibrandcc/laravel-sms
