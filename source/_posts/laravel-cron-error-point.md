@@ -1,6 +1,6 @@
 ---
 title: Laravel Cron 定时任务“跳坑”点
-date: 2018-10-15 12:36:39
+date: 2018-05-29 12:36:39
 tags: [laravel,crontab]
 typora-copy-images-to: laravel-cron-error-point
 ---
