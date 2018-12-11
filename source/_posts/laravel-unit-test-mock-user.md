@@ -1,5 +1,5 @@
 ---
-title: Laravel 单元测试 : 模拟认证的用户
+title: Laravel 单元测试-模拟认证的用户
 date: 2018-10-24 14:27:29
 tags: [laravel,phpunit]
 ---
