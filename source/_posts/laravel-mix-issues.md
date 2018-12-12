@@ -1,7 +1,7 @@
 ---
-title: laravel-mix-issues
+title: Homestead 中使用 laravel-mix 问题汇总
 date: 2018-10-7 06:49:59
-tags: [laravel,mix]
+tags: [laravel,mix,homestead]
 ---
 
 按照 laravel 官方文档在准备使用 [laravel-mix][1] 时遇到了很多问题，许多同学应该会遇到同样的问题，自己花了一些时间来解决这些问题，在此做个笔记帮助大家减少填坑的时间。
