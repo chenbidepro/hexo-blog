@@ -8,7 +8,7 @@ tags: [laravel,sms,laravel-package]
 
 Laravel 贴合实际需求同时满足多种通道的短信发送组件
 
-![build](/laravel-sms-package/build.png)
+![build](https://cdn.chenhow.com/laravel-sms-package/build.png)
 
 基于业务需求在 [overtrue/easy-sms][1] 进行扩展开发，主要实现如下功能：
 
@@ -37,7 +37,7 @@ composer require ibrand/laravel-sms:~1.0 -vvv
 
 `config/app.php` 文件中 'providers' 添加
 ```
-iBrand\Sms\ServiceProvder::class
+iBrand\Sms\ServiceProvider::class
 ```
 
 `config/app.php` 文件中 'aliases' 添加
