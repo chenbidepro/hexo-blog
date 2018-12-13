@@ -48,15 +48,12 @@ iBrand\DatabaseLogger\ServiceProvider::class
 
 ### 效果
 
-![9459][2]
+![9459](https://cdn.chenhow.com/ibrand-laravel-database-logger/1.png)
 
-![9462][3]
+![9462](https://cdn.chenhow.com/ibrand-laravel-database-logger/2.png)
 
-![9465][4]
+![9465](https://cdn.chenhow.com/ibrand-laravel-database-logger/3.png)
 
 > 欢迎大家 star 和提交 issue   :)
 
-  [1]: https://github.com/ibrandcc/laravel-database-logger
-  [2]: /img/bV19mj
-  [3]: /img/bV19mp
-  [4]: /img/bV19ms
+[1]: https://github.com/ibrandcc/laravel-database-logger
