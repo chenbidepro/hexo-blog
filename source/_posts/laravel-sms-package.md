@@ -2,6 +2,7 @@
 title: Laravel SMS 短信发送包
 date: 2018-10-28 08:13:45
 tags: [laravel,sms,laravel-package]
+categories: [Laravel-packages]
 ---
 
 # Laravel Sms

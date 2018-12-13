@@ -2,6 +2,7 @@
 title: Laravel 单元测试-模拟认证的用户
 date: 2018-10-24 14:27:29
 tags: [laravel,phpunit]
+categories: [Laravel-tips]
 ---
 
 在 Laravel 编写单元测试时经常会遇到需要模拟认证用户的时候，比如新建文章、创建订单等，那么在 Laravel unit test 中如何来实现呢？

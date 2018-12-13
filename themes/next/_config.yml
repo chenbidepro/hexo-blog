@@ -95,7 +95,7 @@ menu:
   home: / || home
   #about: /about/ || user
   tags: /tags/ || tags
-  #categories: /categories/ || th
+  categories: /categories/ || th
   archives: /archives/ || archive
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
@@ -150,7 +150,7 @@ links_layout: block
 #links_layout: inline
 links:
   iBrand: https://www.ibrand.cc/
-  SF: https://segmentfault.com/u/ibrand
+  segmentfault: https://segmentfault.com/u/ibrand
   掘金: https://juejin.im/user/5aab2cfa518825556534407a
 
 # Sidebar Avatar

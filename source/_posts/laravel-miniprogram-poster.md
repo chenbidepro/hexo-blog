@@ -2,6 +2,7 @@
 title: Laravel 生成小程序图文海报最佳方案之一
 date: 2018-11-06 07:31:36
 tags: [laravel,laravel-package,微信小程序]
+categories: [Laravel-packages]
 ---
 
 > 目前已经更新 2.0 版本，支持生成的海报关联Model，支持是否重新生成海报等功能，具体更新请移步 github: [laravel-miniprogram-poster](https://github.com/ibrandcc/laravel-miniprogram-poster)

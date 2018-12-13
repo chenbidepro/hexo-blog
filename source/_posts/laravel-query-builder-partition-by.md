@@ -2,6 +2,7 @@
 title: Laravel Query Builder 复杂查询案例：子查询实现分区查询 partition by
 date: 2018-11-02 14:08:05
 tags: [laravel,query-builder,partition-by]
+categories: [Laravel-tips]
 ---
 
 

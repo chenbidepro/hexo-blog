@@ -2,6 +2,7 @@
 title: Laravel Service Provider 开发时设置延迟加载时遇到的问题
 date: 2018-10-18 08:04:51
 tags: [laravel, ServiceProvider]
+categories: [Laravel-tips]
 ---
 
 ### 发现问题

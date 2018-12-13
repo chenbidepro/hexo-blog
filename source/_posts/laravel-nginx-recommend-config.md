@@ -2,6 +2,7 @@
 title: Laravel 5.5 官方推荐 Nginx 配置学习
 date: 2018-10-09 07:51:55
 tags: [laravel,nginx]
+categories: [Laravel-tips]
 ---
 
 Laravel 5.5 版本官方放出了 Nginx 服务器的配置，中文文档：[服务器配置 Nginx][1]

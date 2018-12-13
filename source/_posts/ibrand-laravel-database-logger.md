@@ -2,6 +2,7 @@
 title: Laravel Database Logger SQL执行分析工具包
 date: 2018-10-21 08:11:32
 tags: [laravel,database,logger,laravel-package]
+categories: [Laravel-packages]
 ---
 
 iBrand 社交新零售电商产品从2016年9月启动至今，已经趋于稳定，而且已经初步得到市场的检验，特别能抗住电商中秒杀时高并发的交易场景。

@@ -2,6 +2,7 @@
 title: 使用 Satis 搭建私有的 Composer 包仓库
 date: 2018-10-20 14:04:18
 tags: [laravel,composer,packages,laravel-package]
+categories: [Laravel-tips]
 ---
 
 ## 简述
