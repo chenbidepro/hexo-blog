@@ -5,10 +5,6 @@ tags: [laravel,database,logger,laravel-package]
 categories: [Laravel-packages]
 ---
 
-iBrand 社交新零售电商产品从2016年9月启动至今，已经趋于稳定，而且已经初步得到市场的检验，特别能抗住电商中秒杀时高并发的交易场景。
-
-接下来我们团队会逐步开源一些正在使用的工具和解决方案，并且会开源电商产品代码，欢迎大家关注我们 iBrand 产品。
-
 今天介绍的是我们在实际应用场景中使用的一个小功能包 [Laravel database logger][1] ，求 Star : )
 
 ### Why

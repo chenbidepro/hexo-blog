@@ -5,7 +5,7 @@ tags: [phpunit,单元测试]
 categories: [laravel-tips]
 ---
 
-最近团队在不断完善项目中的单元测试用例，会用到代码覆盖率分析，本来以为 homestead 应该默认安装了 xdebug ，所以使用 `phpunit --coverage-html ./tests/codeCoverage` 来生成 html 报告，但是执行后提示如下错误
+最近在不断完善项目中的单元测试用例，会用到代码覆盖率分析，本来以为 homestead 应该默认安装了 xdebug ，所以使用 `phpunit --coverage-html ./tests/codeCoverage` 来生成 html 报告，但是执行后提示如下错误
 ```
 Error:         No code coverage driver is available
 ```
