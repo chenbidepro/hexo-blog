@@ -63,7 +63,3 @@ $user = new User([
 ```
 
 > 后续会继续写一些单元测试小细节的文章，欢迎关注 : )
-
-## 讨论交流
-
-![iBrand联系我们](https://iyoyo.oss-cn-hangzhou.aliyuncs.com/post/%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg)
