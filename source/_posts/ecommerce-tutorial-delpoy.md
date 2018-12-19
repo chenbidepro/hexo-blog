@@ -84,6 +84,15 @@ Laravel 中上传文件通常是存储在 `storage/app/public` 目录下，该�
 php artisan ibrand:store-install 
 ```
 
+### 导入商品数据
+
+该项目使用标准的 Laravel migration 来创建数据表，虽然 `ibrand:store-install` 命令进行了数据初始化，但是为了方便，我们准备一份完整的商品数据，有助于理解商品模块的系统设计和快速体验。
+
+商品示例数据SQL文件在  `modules/EC.Open.Core/database` 目录下，可以通过使用各类 mysql 管理工具 或者 mysql 命令执行 sql 文件导入。
+
+> sql 文件地址： [goods_demo_data.sql](https://github.com/ibrandcc/ecommerce-open-api/blob/master/modules/EC.Open.Core/database/goods_demo_data.sql)
+
+
 ### 最后一步
 
 请把 `.env` 文件中 APP_URL 值设置为你当前的域名，比如开源 demo 环境中
