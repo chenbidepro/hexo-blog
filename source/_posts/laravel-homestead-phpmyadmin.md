@@ -1,6 +1,6 @@
 ---
 title: Homestead 安装 phpMyAdmin 作为数据库管理客户端
-date: 2018-12-19 14:46:05
+date: 2018-11-18 14:46:05
 tags: [laravel,php,phpmyadmin,mysql]
 categories: [Laravel 教程]
 ---
