@@ -2,7 +2,7 @@
 title: Windows + Homestead 5 搭建 Laravel 开发环境
 date: 2018-12-19 14:33:31
 tags: [homestead,laravel,virtualbox]
-categories: [laravel 教程]
+categories: [Laravel 教程]
 ---
 
 ## 统一开发环境
