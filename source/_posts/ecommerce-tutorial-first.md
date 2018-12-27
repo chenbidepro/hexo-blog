@@ -68,4 +68,3 @@ iBrand 社交电商产品正式进入开源过程中了，我们制定了详细�
 
 - [API 文档](https://www.ibrand.cc/docs/api/v1)
 - [Laravel API 讲解](https://www.ibrand.cc/open/article)
-- [小程序讲解](https://www.ibrand.cc/open/article?course_id=7)
