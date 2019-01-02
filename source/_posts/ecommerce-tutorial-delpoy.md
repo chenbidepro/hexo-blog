@@ -76,6 +76,10 @@ Laravel 中上传文件通常是存储在 `storage/app/public` 目录下，该�
 
 更多细节请见：[文件系统](https://laravel-china.org/docs/laravel/5.5/filesystem/1319)
 
+#### 安装 Passport
+
+基于 Laravel Passport 实现，所以需要执行 `php artisan passport:install` 安装 Passport
+
 ### 完成安装
 
 执行内置命令完成数据库及其他配置和数据初始化等任务。
