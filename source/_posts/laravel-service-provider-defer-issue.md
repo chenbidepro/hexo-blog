@@ -90,4 +90,4 @@ php artisan optimize
 2. 更改 `defer` 属性值后，需要执行 `php artisan clear-compiled ` 和 `php artisan optimize` 以更新 ServiceProvider 缓存。
 3. 严禁在延迟加载的 `ServiceProvider` 注册 `middleware` 和 `route` 。
 
-  [1]: https://github.com/ibrandcc/laravel-database-logger/
+  [1]: https://github.com/guojiangclub/laravel-database-logger/

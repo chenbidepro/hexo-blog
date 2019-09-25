@@ -53,4 +53,4 @@ iBrand\DatabaseLogger\ServiceProvider::class
 
 > 欢迎大家 star 和提交 issue   :)
 
-[1]: https://github.com/ibrandcc/laravel-database-logger
+[1]: https://github.com/guojiangclub/laravel-database-logger

@@ -19,8 +19,8 @@ categories: [开源电商]
 
 iBrand 开源电商项目分类 Laravel API + 小程序端，代码地址：
 
-- Laravel API:  [https://github.com/ibrandcc/ecommerce-open-api](https://github.com/ibrandcc/ecommerce-open-api)
-- 微信小程序: [https://github.com/ibrandcc/miniprogram-ecommerce-open-source](https://github.com/ibrandcc/miniprogram-ecommerce-open-source)
+- Laravel API:  [https://github.com/guojiangclub/ecommerce-open-api](https://github.com/guojiangclub/ecommerce-open-api)
+- 微信小程序: [https://github.com/guojiangclub/miniprogram-ecommerce-open-source](https://github.com/guojiangclub/miniprogram-ecommerce-open-source)
 
 所有源码都是基于 [MIT](https://choosealicense.com/licenses/mit/) 协议
 ```

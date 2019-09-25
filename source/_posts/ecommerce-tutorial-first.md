@@ -59,8 +59,8 @@ iBrand 社交电商产品正式进入开源过程中了，我们制定了详细�
 
 ### 源码
 
-- Laravel API 源码: https://github.com/ibrandcc/ecommerce-open-api
-- 小程序源码: https://github.com/ibrandcc/miniprogram-ecommerce-open-source
+- Laravel API 源码: https://github.com/guojiangclub/ecommerce-open-api
+- 小程序源码: https://github.com/guojiangclub/miniprogram-ecommerce-open-source
 
 > 觉得对你有帮助的请 start 鼓励一下，谢谢大家的支持！ : )
 

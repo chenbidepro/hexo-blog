@@ -139,4 +139,4 @@ POST请求 `http://your.domain/sms/verify-code`
 
 
 [1]: https://github.com/overtrue/easy-sms/
-[2]: https://github.com/ibrandcc/laravel-sms
+[2]: https://github.com/guojiangclub/laravel-sms

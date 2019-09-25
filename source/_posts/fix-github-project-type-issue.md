@@ -7,7 +7,7 @@ categories: [Laravel-tips]
 
 ## issue
 
-[Laravel 开源电商项目源码](https://github.com/ibrandcc/ecommerce-open-api) 被 github 判断认为是 HTML 项目，但是实际项目并没有多少 html 代码。
+[Laravel 开源电商项目源码](https://github.com/guojiangclub/ecommerce-open-api) 被 github 判断认为是 HTML 项目，但是实际项目并没有多少 html 代码。
 
 ![issue](https://cdn.chenhow.com/fix-github-project-type-issue/1.png)
 

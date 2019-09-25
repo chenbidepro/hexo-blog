@@ -5,7 +5,7 @@ tags: [laravel,laravel-package,微信小程序]
 categories: [Laravel-packages]
 ---
 
-> 目前已经更新 2.0 版本，支持生成的海报关联Model，支持是否重新生成海报等功能，具体更新请移步 github: [laravel-miniprogram-poster](https://github.com/ibrandcc/laravel-miniprogram-poster)
+> 目前已经更新 2.0 版本，支持生成的海报关联Model，支持是否重新生成海报等功能，具体更新请移步 github: [laravel-miniprogram-poster](https://github.com/guojiangclub/laravel-miniprogram-poster)
 
 微信小程序官方并未提供分享到朋友圈的方法，所以目前基本整个行业都是使用生成图文海报发到朋友圈，然后识别太阳码进入到小程序。
 
@@ -26,7 +26,7 @@ categories: [Laravel-packages]
 2. 清晰度和文件大小合理
 3. 使用简单、即插即用
 
-包地址：[laravel-miniprogram-poster](https://github.com/ibrandcc/laravel-miniprogram-poster) 求 star : )
+包地址：[laravel-miniprogram-poster](https://github.com/guojiangclub/laravel-miniprogram-poster) 求 star : )
 
 ## 体验
 

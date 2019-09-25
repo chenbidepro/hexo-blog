@@ -25,7 +25,7 @@ categories: [开源电商]
 ### 下载源码
 
 ```
-git clone https://github.com/ibrandcc/ecommerce-open-api
+git clone https://github.com/guojiangclub/ecommerce-open-api
 ```
 或者
 
@@ -94,7 +94,7 @@ php artisan ibrand:store-install
 
 商品示例数据SQL文件在  `modules/EC.Open.Core/database` 目录下，可以通过使用各类 mysql 管理工具 或者 mysql 命令执行 sql 文件导入。
 
-> sql 文件地址： [goods_demo_data.sql](https://github.com/ibrandcc/ecommerce-open-api/blob/master/modules/EC.Open.Core/database/goods_demo_data.sql)
+> sql 文件地址： [goods_demo_data.sql](https://github.com/guojiangclub/ecommerce-open-api/blob/master/modules/EC.Open.Core/database/goods_demo_data.sql)
 
 
 ### 最后一步
@@ -105,4 +105,4 @@ APP_URL=https://demo-open-admin.ibrand.cc
 ```
 因为后续为了方便上 https ，所以此处 APP_URL 值必须指定当前项目所在域名。
 
-> 欢迎提交问题，觉得项目不错，记得 star : )    项目传送门：[ibrand-ecommerce-open-source](https://github.com/ibrandcc/ecommerce-open-api)
+> 欢迎提交问题，觉得项目不错，记得 star : )    项目传送门：[ibrand-ecommerce-open-source](https://github.com/guojiangclub/ecommerce-open-api)

@@ -199,12 +199,12 @@ $ ssh-keygen -t rsa -C "xxxxx@xxxxx.com"  #请替换成你自己的邮箱
 
 ### 下载源码
 
-教程中的示例源码我们放在了 github 上，地址：https://github.com/ibrandcc/api-tutorial-source
+教程中的示例源码我们放在了 github 上，地址：https://github.com/guojiangclub/api-tutorial-source
 
 在 `c:\workspace` 目录下右键 `Git Bash Here` ，打开命令窗口，执行如下代码来 `clone` 源码。
 
 ```
-git clone https://github.com/ibrandcc/api-tutorial-source.git
+git clone https://github.com/guojiangclub/api-tutorial-source.git
 ```
 
 ![clipboard.png](https://cdn.chenhow.com/laravel-homestead-install/7.png)

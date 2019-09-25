@@ -127,7 +127,7 @@ scheme: Gemini
 # Value before `||` delimeter is the target permalink.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
 social:
-  GitHub: https://github.com/ibrandcc || github
+  GitHub: https://github.com/guojiangclub || github
   #E-Mail: mailto:yourname@gmail.com || envelope
   #Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
@@ -149,7 +149,7 @@ links_title: Links
 links_layout: block
 #links_layout: inline
 links:
-  iBrand: https://www.ibrand.cc/
+  果酱社区: https://guojiang.club
   segmentfault: https://segmentfault.com/u/ibrand
   掘金: https://juejin.im/user/5aab2cfa518825556534407a
 
